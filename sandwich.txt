@@ -1,0 +1,19 @@
+=====================
+PROBLEMS WRITING DATA
+=====================
+The problem statement says that the input will be numbers on lines by themselves, and similarly the output will be on a line by itself. However, both the input and output have blank lines after each case, so this should be corrected.
+Also, n is not bound, but m is.
+
+=========================
+EXPLANATION OF DATA CASES
+=========================
+Cases 1 - 3: Given test cases
+Case 4: Should detect 2323 as a sandwich number (make sure <= and not <)
+Case 5: Allowable zero case
+Case 6: Checking the smallest possible sandwich number
+Cases 7 & 8: Large powers of 10 to check runtime constraints
+Case 9: A large case that isn't a straight power of 10
+Case 10: Another large case problem
+Case 11: One final random check
+
+Due to time contraints I was not able to test the max case (10^12) but if your solution gets the correct answers to these, it will almost certainly get a correct answer to 10^12. You just need to make sure it runs in time.
